@@ -86,7 +86,6 @@ sss = StratifiedShuffleSplit(n_splits=10, test_size=0.2,random_state = 42)
 # Importing modules for feature scaling and selection
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.feature_selection import SelectKBest, f_classif
-from sklearn.decomposition import PCA
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 # Defining functions to be used via the pipeline
